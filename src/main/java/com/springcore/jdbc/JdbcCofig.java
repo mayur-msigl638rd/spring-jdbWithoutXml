@@ -17,8 +17,8 @@ public class JdbcCofig {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 		ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		ds.setUrl("jdbc:mysql://localhost:3306/springjdbc");
-		ds.setUsername("root");
-		ds.setPassword("5442213");
+		ds.setUsername("your username");
+		ds.setPassword("Your password");
 		
 		return ds;
 		
